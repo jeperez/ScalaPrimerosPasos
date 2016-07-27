@@ -31,37 +31,40 @@ lista.flatMap(elemento => funcion)
  ******************************************************************************   
  * */
 
-/*P07: Dada una lista anidada, generar una unica lista con todos los elementos de la lista anidada*/
+/*P08: Dada una lista, devolver la misma lista sin duplicados*/
 
-object P07 extends App {
+object P08 extends App {
 
-  val listaPlana: List[Any] = P07.generarListaPlana(List("A", List("a", "b", "c"), List("d")));
-  val listaPlana2: List[Any] = P07.generarListaPlana_FlatMap(List("A", List("a", "b", "c"), List("d")));
+  val lista: List[Any] = P08.eliminarRepetidos(List(1,2,3,4,5,6,6,6,3));
   
-  println("listaPlana: " +  listaPlana)
-  println("listaPlana con FlatMap:" + listaPlana2);
+  val listaRec: List[Any] = P08.eliminar_doWhile(List(1,2,3,3,4,5,6,6,6,3,5));
+  
+  
+  
+  println("Lista Sin repetidos: " +  lista)
+  
+  println("Lista sin repetidos Recursiva: " + listaRec);
+  
+  def eliminarRepetidos(lista: List[Any]): List[Any] = {
 
-  def generarListaPlana(lista: List[Any]): List[Any] = {
-
-    var result = List[Any]()
-
-    for (x <- lista) {
-      x match {
-        case xs: List[Any] =>
-          result = result ++: generarListaPlana(xs)
-        case _ =>
-          result = result :+ x
-      }
-    }
-    result
+    lista.distinct
+   
 
   }
   
+  /*
+   * dropWhile "drops longest prefix of elements that satisfy a predicate.", i.e. it stops dropping as long as condition is no longer met
+   * */
   
-   def generarListaPlana_FlatMap(list: List[Any]): List[Any] = list.flatMap(el => el match {
-    case xs: List[Any] => generarListaPlana_FlatMap(xs)
-    case _ => List(el)
-  })
+  
+  
+  
+  def eliminar_doWhile[T](list: List[T]): List[T] = list match {
+    case Nil => Nil
+    case x :: xs => x :: eliminar_doWhile(xs.dropWhile(e => e == x))
+  }
+  
+  
   
 
 }

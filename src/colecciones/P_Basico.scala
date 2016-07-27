@@ -15,6 +15,7 @@ object objectColecciones {
     //Listas genericas
     var listaEnteros:List[Int] = List(1,2,3);
     
+   
     
     //Concatenar
     var listaConcatenada = 1 :: 2 :: 3 :: 4 :: Nil;
@@ -30,10 +31,10 @@ object objectColecciones {
     //print(listaConcatenada3);
     
     //Foreach
-    //listaConcatenada3.foreach { x:Int => print(x) };
+    listaConcatenada3.foreach { x:Int => print(x) };
     
     //Por inferencia podemos evitar mucha sintaxis del foreach
-    //listaConcatenada3 foreach{x =>print(x)};
+    listaConcatenada3 foreach{x =>print(x)};
     
     //Filter
     var filtro = listaConcatenada3.filter{x => x>5};

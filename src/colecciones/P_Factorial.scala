@@ -15,11 +15,11 @@ import scala.annotation.tailrec
  ******************************************************************************   
  * */
 
-/*P08: Factorial de un numero*/
+/*PFactorial: Factorial de un numero*/
 
 object PFactorial extends App {
 
-  val factorial: Int = P08.factorial(3);
+  val factorial: Int = PFactorial.factorial(3);
 
   println(factorial);
 

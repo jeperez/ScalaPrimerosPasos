@@ -7,11 +7,11 @@ Proyecto realizado en Scala con ejemplos básicos para aprender a manejar el len
 ### MAC
 
 Usando hombrew ... 
-
+```
 $ brew update
 $ brew install scala
 $ brew install sbt
-
+```
 ### Windows
 
 * Descarga Scala --> http://www.scala-lang.org/download/

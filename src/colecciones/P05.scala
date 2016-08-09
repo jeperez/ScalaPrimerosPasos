@@ -1,6 +1,6 @@
 package colecciones
 
-/*P04: Calcular el tamaño de una lista. Metodo Length*/
+/*P05: Obtener una lista en orden inverso. Metodo Reverse*/
 
 object P05 extends App{
   

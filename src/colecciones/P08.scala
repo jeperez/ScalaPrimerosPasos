@@ -1,35 +1,6 @@
 package colecciones
 
-/*
- * 
- **********************************************************************
- For en Scala 
- ===================
- Los bucles For normales equivalen en Scala a esto:
- for (i <- 1 to 10) {
-  println(i)
-}
 
-Los bucles For a partir de Java 5, equivalen en Scala a esto:
-for (s <- getList) {
-  println(s)
-  
-ForEach en Scala 
-================================
-lista.foreach { x => println(x) }
-lista.foreach(println(_));
-lista.foreach(println);  
-  
-}
-
-FlatMap 
-===========================================================
-Construye una nueva lista aplicando una funcion
-
-lista.flatMap(elemento => funcion)
- 
- ******************************************************************************   
- * */
 
 /*P08: Dada una lista, devolver la misma lista sin duplicados*/
 

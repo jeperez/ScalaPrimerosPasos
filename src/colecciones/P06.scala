@@ -17,7 +17,9 @@ package colecciones
  ******************************************************************************   
  * */
 
-/*P04: Calcular el tamaño de una lista. Metodo Length*/
+
+/*P06: Comprobar si 2 cadenas son palindromos. Metodo Reverse*/
+
 
 object P06 extends App {
 

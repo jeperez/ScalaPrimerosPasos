@@ -1,4 +1,6 @@
-package colecciones
+package colecciones.ejercicios
+
+
 
 /*P06: Comprobar si 2 cadenas son palindromos. Metodo Reverse*/
 

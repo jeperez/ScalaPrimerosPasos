@@ -1,5 +1,4 @@
-package colecciones
-
+package colecciones.ejercicios
 
 
 /*P08: Dada una lista, devolver la misma lista sin duplicados*/

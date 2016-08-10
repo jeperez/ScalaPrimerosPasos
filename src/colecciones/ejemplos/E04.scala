@@ -1,4 +1,4 @@
-package colecciones
+package colecciones.ejemplos
 
 /*
  * 
@@ -10,7 +10,7 @@ package colecciones
  ******************************************************************************   
 */
 
-object P11 extends App {
+object E04 extends App {
 
   var lista: List[Int] = List(1, 2, 3, 4);
   
@@ -18,6 +18,7 @@ object P11 extends App {
   //Con el acumulador 0, aplica la funcion suma a la lista
   var valor1 = lista.fold(0)(_ + _);
   println(valor1);
+  
   var valor2 = lista.fold(0)((x,y)=>x+y);
   println(valor2);
   

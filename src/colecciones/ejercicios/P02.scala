@@ -1,4 +1,4 @@
-package colecciones
+package colecciones.ejercicios
 
 /*P02: Buscar el anteultimo elemento de una lista*/
 

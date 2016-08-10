@@ -1,6 +1,41 @@
 package colecciones
 
-/*
+/*P06: Comprobar si 2 cadenas son palindromos. Metodo Reverse*/
+
+
+object P06 extends App {
+
+/************************************************************************************************/  
+  
+  //Ejemplo 1: Se comprueba si 2 cadenas son palindromos, si son iguales del derechas que del reves. Function Reverse
+  val esPalindromo: Boolean = P06.getPalindromo(List("A", "N", "A"));
+  println(esPalindromo);
+  
+  //Ejemplo 2: Se comprueba si 2 cadenas son palindromos. Se utiliza ejercicio P05 
+  val esPalindromoRec: Boolean = P06.getPalindromoRec(List(1, 2, 3, 2, 1));
+  println(esPalindromoRec);
+ 
+/************************************************************************************************/  
+  
+  //Funcion palindromo
+  def getPalindromo[T](lista: List[T]): Boolean = {
+
+    var listaAlReves: List[T] = lista.reverse;
+
+    if (listaAlReves == lista) {
+      return true;
+    } else return false;
+
+  }
+
+  //Funcion palindromo recursivo
+  def getPalindromoRec[T](lista: List[Int]): Boolean = {
+
+    P05.getReverseRec(lista) == lista;
+
+  }
+  
+  /*
  * Igualdad en Java y Scala
  * Java tiene == y equals
  * Scala tiene eq, == y equals
@@ -16,33 +51,6 @@ package colecciones
     foo eq foo will return true, since both arguments link to the same reference
  ******************************************************************************   
  * */
-
-
-/*P06: Comprobar si 2 cadenas son palindromos. Metodo Reverse*/
-
-
-object P06 extends App {
-
-  val esPalindromo: Boolean = P06.getPalindromo(List("A", "N", "A"));
-  val esPalindromoRec: Boolean = P06.getPalindromoRec(List(1, 2, 3, 2, 1));
-
-  println(esPalindromo);
-  println(esPalindromoRec);
-
-  def getPalindromo[T](lista: List[T]): Boolean = {
-
-    var listaAlReves: List[T] = lista.reverse;
-
-    if (listaAlReves == lista) {
-      return true;
-    } else return false;
-
-  }
-
-  def getPalindromoRec[T](lista: List[Int]): Boolean = {
-
-    P05.getReverseRec(lista) == lista;
-
-  }
+  
 
 }

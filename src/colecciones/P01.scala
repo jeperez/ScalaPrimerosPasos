@@ -4,17 +4,25 @@ package colecciones
 
 object P01 extends App{
   
+  
+  /************************************************************************************************/
+  //Ejemplo 1: Se obtiene el ultimo elemento de la lista, pasando como argumento una lista generica [T]
   val lastGenerico:String = P01.lastGenerico(List("a", "b", "c", "d"));
-  
-  val lastCadena:String = P01.lastCadena(List("a","b","c","d"));
-  
-  val lastNumerico:Int = P01.lastNumerico(List(1,2,3,4,5,6,7));
-  
-  val lastRecursivo:Int = P01.lastRecursivo(List(1,2,3,4,5,6,7));
-  
   println(lastGenerico);
+   
+  //Ejemplo 2: Se obtiene el ultimo elemento de la lista, pasando como argumento una lista de tipo String
+  val lastCadena:String = P01.lastCadena(List("a","b","c","d"));
   println(lastCadena);
-  println(lastNumerico);
+  
+  //Ejemplo 3: Se obtiene el ultimo elemento de la lista, pasando como argumento una lista de tipo Int
+  val lastNumerico:Int = P01.lastNumerico(List(1,2,3,4,5,6,7));
+    println(lastNumerico);
+
+  //Ejemplo 4: Se obtiene el ultimo elemento de la lista, utilizando Pattern Match y recursividad  
+  val lastRecursivo:Int = P01.lastRecursivo(List(1,2,3,4,5,6,7));
+   println(lastRecursivo);
+   
+ /************************************************************************************************/
   
   
   

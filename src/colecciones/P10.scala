@@ -8,7 +8,7 @@ package colecciones
  ******************************************************************************   
 */
 
-object P_DropWhile extends App {
+object P10 extends App {
 
   var lista: List[Int] = List(1, 2, 3, 4, 5, 6, 6, 6, 3);
   var listaCadena:List[String] = List("Rocio", "Carlos", "Maria", "Raquel", "Pablo");

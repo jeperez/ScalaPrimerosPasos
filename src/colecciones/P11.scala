@@ -10,7 +10,7 @@ package colecciones
  ******************************************************************************   
 */
 
-object P_Fold extends App {
+object P11 extends App {
 
   var lista: List[Int] = List(1, 2, 3, 4);
   

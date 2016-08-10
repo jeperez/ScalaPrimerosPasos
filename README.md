@@ -26,6 +26,7 @@ Se pueden usar varias soluciones. En este proyecto he usado Scala IDE
 
 ## Lista de Ejemplos
 
+### Colecciones
 01. E01. Ejemplos de listas 
 02. E02. Ejemplos de uso de la funcion Drop, DropWhile
 03. E03. Ejemplos de uso de la funcion Reduce, ReduceLeft, ReduceRight
@@ -33,6 +34,8 @@ Se pueden usar varias soluciones. En este proyecto he usado Scala IDE
 05. E05. Ejemplos del uso del foreach
 06. E06. Ejemplos del uso de Filter
 07. E07. Ejemplos del uso de Map
+
+### Pattern Match
 
 
 ## Lista de Ejercicios

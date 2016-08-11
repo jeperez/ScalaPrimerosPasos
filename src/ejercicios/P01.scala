@@ -1,4 +1,4 @@
-package colecciones.ejercicios
+package ejercicios
 
 /*P01: Buscar el ultimo elemento de una lista*/
 

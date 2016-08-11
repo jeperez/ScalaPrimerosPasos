@@ -1,4 +1,4 @@
-package colecciones.ejercicios
+package ejercicios
 
 
 /*P07: Dada una lista anidada, generar una unica lista con todos los elementos de la lista anidada*/

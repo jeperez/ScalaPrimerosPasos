@@ -36,7 +36,9 @@ Se pueden usar varias soluciones. En este proyecto he usado Scala IDE
 07. E07. Ejemplos del uso de Map
 
 ### Pattern Match
-
+01. E01. Ejemplos de uso Pattern Match
+02. E02. Pattern Match con listas
+03. E03. Pattern Match con Guards (Expresiones if)
 
 ## Lista de Ejercicios
 1. P01. Buscar el ultimo elemento de una lista 

@@ -1,4 +1,4 @@
-package colecciones.ejemplos
+package ejemplos.colecciones
 
 import scala.collection.mutable.MapLike
 

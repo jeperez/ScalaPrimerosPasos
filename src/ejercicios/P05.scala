@@ -1,4 +1,4 @@
-package colecciones.ejercicios
+package ejercicios
 
 /*P05: Obtener una lista en orden inverso. Metodo Reverse*/
 

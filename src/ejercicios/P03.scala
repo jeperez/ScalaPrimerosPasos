@@ -1,4 +1,4 @@
-package colecciones.ejercicios
+package ejercicios
 
 /*P03: Buscar el N elemento de una lista*/
 

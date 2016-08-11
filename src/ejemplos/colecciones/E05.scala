@@ -1,4 +1,4 @@
-package colecciones.ejemplos
+package ejemplos.colecciones
 
 object E05 {
 

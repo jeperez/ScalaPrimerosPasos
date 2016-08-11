@@ -1,4 +1,4 @@
-package colecciones.ejercicios
+package ejercicios
 
 import scala.annotation.tailrec
 

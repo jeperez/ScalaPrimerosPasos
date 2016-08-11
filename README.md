@@ -40,6 +40,17 @@ Se pueden usar varias soluciones. En este proyecto he usado Scala IDE
 02. E02. Pattern Match con listas
 03. E03. Pattern Match con Guards (Expresiones if)
 
+## Tuplas
+01. E01. Ejemplos de uso (creacion, acceso y funciones)
+
+## Funciones
+01. E01. Ejemplo funciones anonimas (funciones sin nombre)
+
+## Traits
+01. Clase1.scala : Ejemplos de herencia entre Clases y Traits
+
+
+
 ## Lista de Ejercicios
 1. P01. Buscar el ultimo elemento de una lista 
 2. P02. Buscar el anteultimo elemento de una lista

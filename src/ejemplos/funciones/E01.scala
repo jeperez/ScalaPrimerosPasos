@@ -1,12 +1,14 @@
 package ejemplos.funciones
 
-object E01 {
-
-  /*
+/*
    * Funcion anonima o Funcion Lambda: Son funciones sin nombre.
    * Se representan asi: (parametros) => accion
    * Se pueden guardar en variables. 
    * */
+
+object E01 {
+
+  
 
   //Ejemplo funcion Anonima que es pasada como parametro e invocada cada segundo.
   def metodo1(repite: () => Unit) {

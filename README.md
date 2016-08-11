@@ -40,13 +40,15 @@ Se pueden usar varias soluciones. En este proyecto he usado Scala IDE
 02. E02. Pattern Match con listas
 03. E03. Pattern Match con Guards (Expresiones if)
 
-## Tuplas
+### Tuplas
 01. E01. Ejemplos de uso (creacion, acceso y funciones)
 
-## Funciones
+### Funciones
 01. E01. Ejemplo funciones anonimas (funciones sin nombre)
+02. E02. Ejemplo funciones de orden superior
+03. E03. Ejemplo de funciones parciales
 
-## Traits
+### Traits
 01. Clase1.scala : Ejemplos de herencia entre Clases y Traits
 
 

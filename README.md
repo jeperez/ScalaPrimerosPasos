@@ -63,6 +63,8 @@ Se pueden usar varias soluciones. En este proyecto he usado Scala IDE
 7. P07. Obtener una lista plana a partir de una lista anidada
 8. P08. Dada una lista, devolver la misma lista pero sin duplicados.
 9. P09. Factorial de un numero
+10. P10. Duplicar los elementos de una lista
+11. P11. Partir una lista en 2
 
 
 

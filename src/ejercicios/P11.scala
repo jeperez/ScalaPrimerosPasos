@@ -1,6 +1,6 @@
 package ejercicios
 
-/*P10: Dada una lista, dividirla en 2 trozos. El tamaño del primer trozo es pasado por parametro*/
+/*P11: Dada una lista, dividirla en 2 trozos. El tamaño del primer trozo es pasado por parametro*/
 
 object P11 extends App {
 

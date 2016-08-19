@@ -65,6 +65,7 @@ Se pueden usar varias soluciones. En este proyecto he usado Scala IDE
 9. P09. Factorial de un numero
 10. P10. Duplicar los elementos de una lista
 11. P11. Partir una lista en 2
+12. P12. Rotar una lista hacia la izquierda a partir de la posicion pasada por parametro
 
 
 

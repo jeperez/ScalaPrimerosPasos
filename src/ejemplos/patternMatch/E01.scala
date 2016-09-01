@@ -27,17 +27,14 @@ object E01 {
     println(valorMatch2)
 
     //Funcion que usa pattern match con 2 variables en la expresion
-    def ejemploBucle(i: Int, j: Int) = j match {
+    def ejemploVariables(i: Int, j: Int) = j match {
       case i ⇒ true
       case _   ⇒ false
     }
 
-    val valorMatch3 = ejemploBucle(3,3)
+    val valorMatch3 = ejemploVariables(3,3)
     println(valorMatch3)
-    
-
-    
-    
+   
     //https://www.scala-exercises.org/std_lib/pattern_matching
 
   }
